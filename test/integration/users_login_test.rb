@@ -40,18 +40,16 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
 
   test "login with remembering" do
     log_in_as(@user, remember_me: '1')
-    assert_not_nil cookies['remember_token']
+    assert_equal cookies['remember_token'],  assigns(:user).remember_token
   end
 
   test "login without remembering" do
     # Log in to set the cookie.
     log_in_as(@user, remember_me: '1')
-    byebug
     delete logout_path
-    byebug
     # Log in again and verify that the cookie is deleted.
     log_in_as(@user, remember_me: '0')
-    assert_nil cookies['remember_token']
+    assert_empty  cookies['remember_token'] #Here must be assert_empty
   end
 
 
