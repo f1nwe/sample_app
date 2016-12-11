@@ -5,7 +5,7 @@ if Rails.env.production?
         :provider              => 'AWS',
         :aws_access_key_id     => ENV['AKIAJOJF7FNXPREL5B3Q'],
         :aws_secret_access_key => ENV['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']
-    }
-    config.fog_directory     =  ENV['finwessampleapp']
+
+    config.fog_directory     =  ENV['S3_BUCKET']
   end
 end
