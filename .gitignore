@@ -75,3 +75,6 @@ fabric.properties
 /spring
 
 training.rb
+
+# Ignore uploaded test images.
+/public/uploads

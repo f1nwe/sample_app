@@ -134,6 +134,7 @@
     <orderEntry type="library" scope="PROVIDED" name="autoprefixer-rails (v6.5.3, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.11, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootstrap-sass (v3.3.6, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bootstrap-will_paginate (v0.0.10, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.13.6, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="byebug (v9.0.0, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
@@ -144,16 +145,46 @@
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.0.2, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debug_inspector (v0.0.2, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="excon (v0.54.0, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.7.0, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faker (v1.6.6, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.14, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fission (v0.5.0, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog (v1.38.0, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-aliyun (v0.1.0, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-atmos (v0.1.0, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-aws (v0.13.0, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-brightbox (v0.11.0, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-core (v1.43.0, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-dynect (v0.0.3, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-ecloud (v0.3.0, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-google (v0.1.0, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-json (v1.0.2, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-local (v0.3.1, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-openstack (v0.1.18, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-rackspace (v0.1.2, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-radosgw (v0.0.5, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-riakcs (v0.1.0, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-sakuracloud (v1.7.5, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-serverlove (v0.1.2, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-softlayer (v1.1.4, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-storm_on_demand (v0.1.1, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-terremark (v0.1.0, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-vmfusion (v0.1.0, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-voxel (v0.1.0, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-vsphere (v1.5.2, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-xml (v0.1.2, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="formatador (v0.2.5, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.3.7, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard (v2.13.0, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard-compat (v1.2.1, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard-minitest (v2.4.4, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.7.0, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="inflecto (v0.0.2, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ipaddress (v0.8.3, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.4.1, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v4.1.1, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="json (v2.0.2, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="listen (v3.0.8, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.0.3, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="lumberjack (v1.0.10, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
@@ -194,6 +225,7 @@
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.19.4, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.5, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v2.0.5, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="trollop (v2.1.2, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="turbolinks (v5.0.1, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="turbolinks-source (v5.0.0, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.2, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
@@ -201,6 +233,7 @@
     <orderEntry type="library" scope="PROVIDED" name="web-console (v3.1.1, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket-driver (v0.6.4, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket-extensions (v0.1.2, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="will_paginate (v3.1.0, RVM: ruby-2.3.1 [rails_tutorial_5]) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />
